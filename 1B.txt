@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <string.h>
+int main(void) {
+ char password[100];
+ printf("Enter your password: ");
+ scanf("%s", password);
+ printf("Your password is: %s\n", password);
+ return 0;
+}
